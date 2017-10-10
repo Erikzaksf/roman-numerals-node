@@ -37,11 +37,10 @@ This web application allows users to convert numbers into roman numerals.
   * Example Input: 1000
   * Example Output: M
 
-* _Identify if there more than 3 of the same character in row and switch to subtraction_
+* _Return correct numeral when user inputs any applicable number_
   * Example Input: 29
   * Example Output: XXIX
-  * Example Input: 99
-  * Example Output: XCIX
+
 
 
 ## Setup/Installation Requirements
