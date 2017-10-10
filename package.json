@@ -11,6 +11,8 @@
     "gulp-jshint": "^2.0.4",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
+    "istanbul": "^0.4.5",
+    "jasmine-node": "^1.14.5",
     "jshint": "^2.9.5",
     "vinyl-source-stream": "^1.1.0"
   },
@@ -29,7 +31,7 @@
     "watchify": "^3.9.0"
   },
   "scripts": {
-    "test": "karma start karma.conf.js"
+    "test": "istanbul cover --[no-]default-excludes jasmine-node spec "
   },
   "author": "",
   "license": "ISC"
